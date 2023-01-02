@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mason';
+    src: url(/font/masonchronicles.ttf);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #FFFFFF;
+    width: 1134px;
+    margin: auto;
+    max-width: 85%;
+}
+
+.header {
+    /*width: 1134px;
+    margin: auto;
+    max-width: 85%;*/
+    margin-top: 50px;
+}
+
+.header_container {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+}
+
+.list_button {
+    display: flex;
+    width: 228px;
+    padding: 0;
+    margin-left: 70px;
+    list-style: none;
+}
+
+.header_nav_button_ur {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header_nav_button:not(:last-child) {
+    margin-right: 25px;
+}
+
+.content_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_nav {
+    margin-right: auto;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header_social:not(:last-child) {
+    margin-right: 20px;
+}
+
+.container {
+   /* width: 975px;
+    margin: auto;*/
+    max-width: 85%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.genr_container {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0;
+}
+
+.container_title {
+    font-family: 'Mason';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 76px;
+    line-height: 89px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.container_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    width: 458px;
+}
+
+.ratting {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 10px;
+}
+
+.container_ratting {
+    display: flex;
+    align-items: center
+}
+
+.container_button {
+    background: #9D2929;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    padding: 22px 70px;
+}
+
+.button_play {
+    width: 100px;
+    height: 100px;
+    background: #9D2929;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    margin-right: 0;
+}
+
+.play {
+    position: relative;
+    transform: translateX(5px);
+}
+
+.button_play::before {
+    content: " ";
+    position: absolute;
+    background: #9D2929;
+    opacity: 0.5;
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    top: -16px;
+    left: -16px;
+}
