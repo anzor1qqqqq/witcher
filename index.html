@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/script/scripts.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/normalize.css">
@@ -41,6 +44,46 @@
                 </div>
                 <button class="button_play"><img src="/img/play.svg" alt="" class="play"></button>
             </div>
+
+            <div class="swiper_container">
+            <div class="card swiper">
+                <div class="swiper-wrapper">
+                <div class="card_seria seria_one swiper-slide">
+                    <div class="seria_text_container">
+                    <span class="text_card_title">Серия #1<br></span>
+                    <span class="text_card_text">Начало конца</span>
+                    </div>
+                </div>
+                <div class="card_seria seria_two swiper-slide">
+                    <div class="seria_text_container">
+                    <span class="text_card_title">Серия #2<br></span>
+                    <span class="text_card_text">Четыре знака</span>
+                    </div>
+                </div>
+                <div class="card_seria seria_two swiper-slide">
+                    <div class="seria_text_container">
+                    <span class="text_card_title">Серия #2<br></span>
+                    <span class="text_card_text">Четыре знака</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            <button class="seria_button_switch"></button>
+        </div>
         </main>
+        
+        <footer class="footer">
+            <div class="reserved">
+                <p class="text_reserved">© 2020 The Witcher. All right reserved.</p>
+            </div>
+            <div class="policy">
+                <nav>
+                <a href="#" class="link_policy">Privacy Policy</a>
+                <a href="#" class="link_policy">Terms of Service</a>
+                <a href="#" class="link_policy">Legal</a>
+                </nav>
+            </div>
+        </footer>
 </body>
 </html>

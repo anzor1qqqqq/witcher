@@ -9,11 +9,15 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: black;
     color: #FFFFFF;
     width: 1134px;
     margin: auto;
     max-width: 85%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(/img/background.jpg) no-repeat top right 20%, #141218;
 }
 
 .header {
@@ -24,9 +28,9 @@ body {
 }
 
 .header_container {
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .list_button {
@@ -65,6 +69,10 @@ body {
     margin-right: 20px;
 }
 
+main {
+    margin-bottom: 100px;
+}
+
 .container {
    /* width: 975px;
     margin: auto;*/
@@ -72,6 +80,7 @@ body {
     margin-top: 100px;
     display: flex;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 .genr_container {
@@ -151,4 +160,89 @@ body {
     border-radius: 50%;
     top: -16px;
     left: -16px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+}
+
+.seria_text_container {
+    padding: 70px 0px 13px 13px;
+}
+
+.card_seria {
+    width: 164px;
+    height: 113px;
+    border-radius: 5px;
+}
+
+.seria_one {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/img/card-image1.svg) no-repeat center;
+}
+
+.seria_two {
+    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/img/card-image2.svg) no-repeat center;
+}
+
+.text_card_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.text_card_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.seria_button_switch {
+    background: url(/img/arrow.svg) no-repeat center;
+    cursor: pointer;
+    width: 35px;
+    height: 30px;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141218;
+    margin-top: auto;
+}
+
+.text_reserved {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3A383C;
+}
+
+.link_policy:not(:last-child) {
+    margin-right: 25px;
+}
+
+.link_policy {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #3A383C;
+}
+
+.swiper {
+    margin-left: 0;
+    max-width: 340px;
+}
+
+.swiper_container {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
 }
