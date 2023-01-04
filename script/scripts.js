@@ -1,3 +1,17 @@
+'use strict'
+
+let burgerMenu = () => {
+  const buttonBurger = document.querySelector('.button_burger');
+  const headerContainer = document.querySelector('.header_container');
+
+  buttonBurger.addEventListener('click', () => {
+    headerContainer.classList.toggle('active');
+    buttonBurger.classList.toggle('active');
+  });
+};
+
+burgerMenu();
+
 new Swiper('.swiper', {
     loop: true,
     slidesPerView: 2,
