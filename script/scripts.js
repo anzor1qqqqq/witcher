@@ -14,10 +14,16 @@ burgerMenu();
 
 new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 20,
     
     navigation: {
     nextEl: '.seria_button_switch',
+    },
+
+    breakpoints: {
+      570: {
+        slidesPerView: 2,
+      }
     }
   });

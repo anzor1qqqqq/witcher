@@ -10,9 +10,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    width: 1134px;
     margin: auto;
-    max-width: 85%;
+    /*max-width: 85%;
+    width: 1134px;*/
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,6 +21,9 @@ body {
 }
 
 .header {
+    width: 1134px;
+    max-width: 85%;
+    margin: auto;
     margin-top: 50px;
 }
 
@@ -71,6 +74,9 @@ body {
 }
 
 main {
+    width: 1134px;
+    max-width: 85%;
+    margin: auto;
     margin-bottom: 100px;
 }
 
@@ -208,11 +214,16 @@ main {
 }
 
 .footer_content {
+    background-color: #141218;
+}
+
+.footer_content_block {
+    width: 1134px;
+    max-width: 85%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #141218;
-    margin-top: auto;
 }
 
 .text_reserved {
@@ -248,10 +259,18 @@ main {
 }
 
 @media (max-width: 860px) {
-    .footer_content {
-        justify-content: center;
+    .footer_content_block {
+        justify-content: center; 
         flex-direction: column;
-        margin-bottom: 20px;
+    }
+
+    .reserved {
+        order:2;
+        margin: 0;
+    }
+
+    .policy {
+        margin: 17px 0;
     }
 
     .button_play {
@@ -351,5 +370,58 @@ main {
 
     .content_social {
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 570px) {
+    .container_title {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .container_text {
+        font-size: 12px;
+        width: 350px;
+    }
+
+    .genr_container {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .container {
+        margin-bottom: 60px;
+    }
+
+    .container_button {
+        font-size: 12px;
+        line-height: 14px;
+        margin-top: 25px;
+        padding: 17px 45px;
+    }
+
+    .reserved {
+        order: 0;
+    }
+
+    .footer_content_block {
+        align-items: flex-start;
+        justify-content: flex-start;  
+    }
+
+    .policy {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .text_reserved {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .link_policy {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
     }
 }
