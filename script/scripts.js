@@ -168,7 +168,7 @@ new Swiper('.swiper', {
       logo: '/img/logo1.svg',
       navButton: ['Описание', 'Трейлер', 'Отзывы'],
       socialLink: [
-        {
+        { 
           title: 'twitter',
           link: '#',
           img: '/img/twitter.svg',
