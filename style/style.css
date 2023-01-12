@@ -189,8 +189,7 @@ main {
     height: 113px;
     border-radius: 5px;
 }
-
-.seria_one {
+/* .seria_one {
     background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/series/series-1.jpg) no-repeat center;
 }
 
@@ -204,7 +203,7 @@ main {
 
 .seria_four {
     background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/series/series-4.jpg) no-repeat center;
-}
+} */
 
 .text_card_title {
     font-style: normal;
