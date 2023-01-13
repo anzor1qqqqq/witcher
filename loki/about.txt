@@ -1,0 +1,38 @@
+main : {
+        genre: '2021, фантастика, фэнтези, боевик, приключения',
+        rating: '8',
+        description: 'Локи попадает в таинственную организацию «Управление временными изменениями» после того, как он украл Тессеракт, и путешествует во времени, меняя историю.',
+        trailer: 'https://youtu.be/YrjHcYqe31g',
+        slider: [
+          {
+            img: 'loki/series/series-1.jpg',
+            title: 'Славная миссия',
+            subtitle: 'Серия №1',
+          }, 
+          {
+            img: 'loki/series/series-2.jpg',
+            title: 'Вариант',
+            subtitle: 'Серия №2',
+          }, 
+          {
+            img: 'loki/series/series-3.jpg',
+            title: 'Ламентис',
+            subtitle: 'Серия №3',
+          }, 
+          {
+            img: 'loki/series/series-4.jpg',
+            title: 'Смежное событие',
+            subtitle: 'Серия №4',
+          },
+          {
+            img: 'loki/series/series-5.jpg',
+            title: 'Путешествие в неизвестность',
+            subtitle: 'Серия №5',
+          },
+          {
+            img: '  ',
+            title: 'На все времена. Всегда',
+            subtitle: 'Серия №6',
+          }
+        ]
+      },

@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     margin: auto;
     min-height: 100vh;
     display: flex;
@@ -31,6 +31,11 @@ body {
     justify-content: space-between;
 }
 
+.logo_img {
+    width: 90px;
+    height: 50px;
+}
+
 .list_button {
     display: flex;
     width: 228px;
@@ -41,7 +46,7 @@ body {
 
 .header_nav_button_ur {
     text-decoration: none;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
 }
 
 .header_nav_button:not(:last-child) {
@@ -175,6 +180,10 @@ main {
     left: -16px;
 }
 
+.anim_sw {
+    animation-delay: 1.8s;
+}
+
 .card {
     display: flex;
     align-items: center;
@@ -189,21 +198,6 @@ main {
     height: 113px;
     border-radius: 5px;
 }
-/* .seria_one {
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/series/series-1.jpg) no-repeat center;
-}
-
-.seria_two {
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/series/series-2.jpg) no-repeat center;
-}
-
-.seria_three {
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/series/series-3.jpg) no-repeat center;
-}
-
-.seria_four {
-    background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%), url(/series/series-4.jpg) no-repeat center;
-} */
 
 .text_card_title {
     font-style: normal;
@@ -227,9 +221,9 @@ main {
     border: none;
 }
 
-.footer_content {
+/* .footer_content {
     background-color: #141218;
-}
+} */
 
 .footer_content_block {
     width: 1134px;
